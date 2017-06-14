@@ -1,1 +1,2 @@
-
+Ứng dụng có tên game bầu cua, ứng dụng này người chơi dùng để giải trí.
+Cách chơi: Lúc bắt đầu chơi, người chơi sẽ có một số tiền cố định, số tiền này sẽ đc sử dụng để đặt cược cho các ván chơi, mỗi ván chơi người chơi đc chọn một hay nhiều cửa, với các mức đặt cược của mỗi cửa từ 0 đến 500, ví dụ người chơi đặt vô ô tôm 20 điểm, khi đỗ có hiện tôm thì người chơi được 20 điểm và nếu không có tôm thì người chơi bị trừ 20 điểm, và số điểm được lưu lại trong ứng dụng.
