@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#00C853"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroundframetien"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_height="30dp" >
+	
+        <TextView
+            android:id="@+id/textViewTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/backgroundtien"
+            android:text="4000000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="47dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="TODO"
+            android:src="@drawable/tien"
+            tools:ignore="HardcodedText,ContentDescription" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewthoigian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:01:00"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp" >
+
+        <GridView
+            android:id="@+id/gvwBauCua"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:numColumns="3"
+            android:verticalSpacing="20dp" >
+
+        </GridView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imagexingau1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/xingau" />
+
+        <ImageView
+            android:id="@+id/imagexingau2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/xingau" />
+
+        <ImageView
+            android:id="@+id/imagexingau3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/xingau"
+             />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonDoXiNgau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0091EA"
+        android:layout_marginTop="20dp"
+        android:onClick="DoXiNgau"
+        android:text="Đỗ" />
+
+</LinearLayout>

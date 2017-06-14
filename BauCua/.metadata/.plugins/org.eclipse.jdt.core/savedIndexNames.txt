@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\LINH\Desktop\BauCua\.metadata\.plugins\org.eclipse.jdt.core
+832100937.index
+4039950667.index
+3642431085.index

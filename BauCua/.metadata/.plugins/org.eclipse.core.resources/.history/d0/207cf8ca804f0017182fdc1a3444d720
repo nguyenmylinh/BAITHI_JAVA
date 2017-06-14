@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false"
+    >
+    <item 
+        android:drawable="@drawable/bau.png"
+        android:duration="50"
+        />
+	<item 
+        android:drawable="@drawable/ca.png"
+        android:duration="50"
+        />
+	<item 
+        android:drawable="@drawable/cua.png"
+        android:duration="50"
+        />
+	<item 
+        android:drawable="@drawable/tom.png"
+        android:duration="50"
+        />
+	<item 
+        android:drawable="@drawable/ga.png"
+        android:duration="50"
+        />
+	<item 
+        android:drawable="@drawable/nai.png"
+        android:duration="50"
+        />
+</animation-list>
